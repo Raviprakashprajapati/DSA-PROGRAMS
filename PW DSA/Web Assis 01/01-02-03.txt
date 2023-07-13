@@ -1,0 +1,8 @@
+
+Q.1 <!DOCTYPE html> is not a tag of HTML. It is a document type declaration (DTD) that tells the browser what version of HTML the document is written in. It is important to use a DTD so that the browser can correctly parse the document and display it correctly.
+
+Q.2 Semantic tags are HTML tags that have a specific meaning. They are used to describe the content of the document in a way that is understandable by both humans and machines. Semantic tags are important because they help to make the document more accessible and easier to understand.
+
+Q.3 The difference between HTML tags and elements is that tags are the markup used to define the structure of an HTML document, while elements are the actual content of the document. For example, the <h1> tag defines a heading element, and the content of the element would be the text of the heading.
+
+

@@ -1,0 +1,19 @@
+Q.6 HTML5 has many advantages over its previous versions, including:
+
+Support for multimedia: HTML5 introduced the <audio> and <video> tags, which allow you to embed audio and video content in your web pages without the need for third-party plugins.
+Better performance: HTML5 is designed to be more efficient than previous versions of HTML, which can lead to faster loading times for your web pages.
+Richer semantics: HTML5 introduces new semantic tags that make it easier for search engines and other applications to understand the meaning of your web pages.
+Improved accessibility: HTML5 includes new features that make it easier for people with disabilities to access your web pages.
+
+
+Q.7 <figure>
+  <audio src="music.mp3" controls>
+  </audio>
+  <button>Play</button>
+</figure>
+
+
+Q.8 The <figure> tag is used to wrap images or other media content, while the <img> tag is used to embed an image in a web page. The main difference between the two tags is that the <figure> tag provides more semantic information about the content, while the <img> tag is more focused on displaying the image.
+
+
+Q.9 The main difference between an HTML tag and an attribute is that a tag is a markup element that defines the structure of an HTML document, while an attribute is a piece of data that provides additional information about a tag.
