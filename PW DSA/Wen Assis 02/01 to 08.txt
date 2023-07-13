@@ -1,0 +1,27 @@
+    Q.1 What's Box Model in CSS?
+The Box Model in CSS is a concept that describes how elements are structured and displayed on a web page. It consists of content, padding, border, and margin. These components define the total size and spacing of an element.
+
+ Q.2 What are the Different Types of Selectors in CSS & what are the advantages of them?
+CSS has various selectors, including element selectors, class selectors, ID selectors, attribute selectors, pseudo-classes, and pseudo-elements. Each selector allows you to target specific elements or groups of elements, enabling precise styling and layout control.
+
+ Q.3 What is VW/VH?
+VW (Viewport Width) and VH (Viewport Height) are CSS units relative to the size of the browser window. VW represents a percentage of the viewport width, while VH represents a percentage of the viewport height. These units are useful for creating responsive designs.
+
+ Q.4 What's the difference between Inline, Inline Block, and Block?
+Inline elements do not start on a new line and only take up the space necessary for their content. Block elements start on a new line and occupy the full width available. Inline-block elements are similar to inline elements but can have a specified width and height, and they start on a new line.
+
+ Q.5 How is Border-box different from Content Box?
+In CSS, the default box-sizing property value is "content-box," which includes only the content area within the specified width and height. However, when using "border-box" as the box-sizing value, the specified width and height include the content, padding, and border, making it easier to manage element sizing.
+
+ Q.6 What's z-index and how does it function?
+z-index is a CSS property that controls the vertical stacking order of elements on a web page. It specifies the z-axis position of an element relative to other elements. Elements with a higher z-index value are displayed on top of elements with a lower value, allowing you to control the layering of elements.
+
+ Q.7 What's the difference between Grid and Flex?
+CSS Grid is a layout system that allows you to create two-dimensional grid layouts with rows and columns. It is ideal for designing complex, grid-based layouts. Flexbox, on the other hand, is a one-dimensional layout system that excels at aligning and distributing elements within a container, either horizontally or vertically. It is suitable for building flexible and responsive single-direction layouts.
+
+ Q.8 Difference between absolute, relative, sticky, and fixed position:
+
+Absolute position: The element is positioned relative to its nearest positioned ancestor. If no ancestor is positioned, it's positioned relative to the initial containing block (usually the document body).
+Relative position: The element is positioned relative to its normal position. It still occupies space in the document flow, and other elements respect its position.
+Sticky position: The element is positioned based on the user's scroll position. It acts like a combination of relative and fixed position. It remains in the normal flow until a specified scroll threshold is reached, after which it becomes fixed.
+Fixed position: The element is positioned relative to the browser window. It stays fixed in its position, even if the page is scrolled. It does not affect the position of other elements.
