@@ -1,0 +1,18 @@
+Q1 Hoisting in JavaScript is a behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase. This allows variables and functions to be used before they are declared.
+
+2 The temporal dead zone is a phase during the runtime of JavaScript code where variables declared with let and const exist but cannot be accessed or used. It occurs between the start of the scope and the point of declaration.
+
+3 The main difference between var and let is that var has function-level scope and can be redeclared within the same scope, while let has block-level scope and cannot be redeclared within the same block.
+
+4 Some major features introduced in ECMAScript 6 (ES6), also known as ECMAScript 2015, include arrow functions, classes, modules, template literals, destructuring assignments, default parameters, and the spread operator.
+
+5 The main difference between let and const is that let allows reassigning the variable's value, while const declares a variable with a constant value that cannot be reassigned once it is assigned a value.
+
+6 Template literals in ES6 are a way to create strings that can include variables and expressions within backticks ( ). They allow for easier string interpolation and multiline strings. To use template literals, you enclose the string content with backticks and use ${} to insert variables or expressions within the string.
+
+7 The main difference between map and forEach is that map creates a new array by applying a function to each element of the original array, while forEach executes a provided function once for each element in the array, but does not create a new array.
+8 Destructuring in ES6 allows you to extract values from arrays or properties from objects and assign them to variables in a concise way. To destructure an array, you use square brackets [ ], and for objects, you use curly braces { }. The variable names on the left side of the assignment match the corresponding positions or property names on the right side.
+
+9 In ES6, you can define default parameter values for function parameters by assigning a value to the parameter in the function declaration. If no argument is passed or an argument is explicitly set as undefined, the default value will be used.
+
+10 The spread operator (...) in ES6 is used to expand an iterable object, such as an array or a string, into individual elements. It allows you to copy elements from one array to another, concatenate arrays, pass elements of an array as arguments to a function, or create shallow copies of objects and arrays.

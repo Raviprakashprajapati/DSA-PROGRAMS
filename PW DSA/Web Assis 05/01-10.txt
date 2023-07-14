@@ -1,0 +1,19 @@
+1 Synchronous refers to the execution of code where each task is performed one at a time in a sequential manner, blocking further execution until the current task is completed. Asynchronous refers to the execution of code where multiple tasks can be initiated and executed concurrently without blocking the main execution flow.
+
+2 Web APIs (Application Programming Interfaces) are interfaces provided by web browsers that allow developers to interact with various web features and functionalities. They provide methods and properties to manipulate web content, access device capabilities (e.g., geolocation), make HTTP requests (e.g., XMLHttpRequest, fetch), handle timers, and more.
+
+3 setTimeout is a function in JavaScript that schedules a single execution of a provided callback function after a specified delay (in milliseconds). setInterval is similar but repeatedly calls the provided callback function at a specified interval until it is cleared or stopped.
+
+4 Async code in JavaScript can be handled using techniques like callbacks, Promises, or async/await. These allow you to manage asynchronous tasks, handle dependencies, and ensure proper sequencing of operations.
+
+5 Callbacks are functions passed as arguments to other functions to be invoked at a later time, typically after an asynchronous operation completes. Callback Hell refers to the situation where multiple nested callbacks are used, resulting in code that becomes difficult to read, maintain, and reason about.
+
+6 Promises are objects that represent the eventual completion (or failure) of an asynchronous operation. They provide a cleaner alternative to callbacks, allowing you to chain multiple asynchronous operations together. Some common methods of a Promise include then() to handle successful completion, catch() to handle errors, and finally() to execute code regardless of the promise's outcome.
+
+7 async and await are keywords in JavaScript used to write asynchronous code in a more synchronous-looking manner. async is used to define an asynchronous function, and await is used to pause the execution of the function until a promise is resolved or rejected, allowing sequential-like code flow.
+
+8 The purpose of the try-catch block in JavaScript is to handle and manage exceptions or errors that may occur during the execution of code. It allows you to gracefully handle errors by providing a fallback plan or displaying appropriate error messages, preventing the program from abruptly crashing.
+
+9 fetch is a built-in JavaScript function used to make HTTP requests to servers and retrieve resources asynchronously. It provides a modern and more flexible alternative to the traditional XMLHttpRequest. It returns a promise that resolves with a response object containing information about the response, which can then be processed using methods like json() or text().
+
+10 To define an asynchronous function using async/await in JavaScript, you prefix the function declaration with the async keyword. This allows the function to use the await keyword within its body, pausing execution until a promise is resolved. The function can then be called and awaited, returning a promise that resolves with the function's eventual result.

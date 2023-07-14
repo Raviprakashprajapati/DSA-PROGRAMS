@@ -1,0 +1,9 @@
+Q1.A Media Query in CSS is a feature that allows you to apply different styles and layouts to a webpage based on certain conditions, such as the characteristics of the device or browser being used. Its purpose is to create responsive web designs that adapt to different screen sizes, resolutions, and device capabilities.
+
+Q2. @media screen and (max-width: 768px)
+
+Q3. Breakpoints in Responsive Web Design refer to specific points where the layout of a webpage changes to accommodate different screen sizes. They are typically defined using media queries. By setting breakpoints at certain screen widths, designers can create responsive designs that adjust and optimize the layout for different devices. Media queries are used to target specific ranges of screen widths and apply different CSS rules accordingly.
+
+Q4. Media Queries for Print Media are used to define styles specifically for print output, such as when a webpage is printed or saved as a PDF. They allow you to control the appearance and layout of content for print, which may differ from the styles used for on-screen display. Media queries for print can target characteristics like page size, margins, and page orientation to ensure the content is formatted correctly for print media.
+
+Q5. The orientation media feature in CSS is used to target the orientation of the device's display. It can have two possible values: portrait or landscape. By using the orientation feature in media queries, you can apply different styles and layouts based on whether the device is in portrait (vertical) or landscape (horizontal) orientation. This allows you to optimize the presentation of content based on the available screen space and the user's viewing preferences.

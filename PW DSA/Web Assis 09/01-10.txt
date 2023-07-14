@@ -1,0 +1,13 @@
+ 1 Hooks are functions in React that allow you to use state and other React features in functional components. Hooks can be identified by the naming convention that starts with "use" (e.g., useState, useEffect, useContext).
+
+2 The useState hook in React is used to add state to functional components. It returns a stateful value and a function to update that value. With useState, you can achieve dynamic and reactive behavior in functional components by storing and updating state values without the need for class components.
+
+3 To pass data from one component to another in React, you can use props. You can pass data as props from a parent component to its child component by including the data as attributes in the JSX when rendering the child component. The child component can then access and use the data through its props.
+
+4 The "key" prop in React lists is used to give each item in the list a unique identifier. It helps React efficiently update and re-render the list by identifying which items have changed, been added, or been removed. Using a correct and stable "key" prop is important to maintain the component's state and avoid unexpected behavior when manipulating lists.
+
+5 Using the setState method instead of directly modifying the state in React is important because it ensures that React can properly track and manage state changes. When you directly modify the state, React may not detect the changes, leading to incorrect UI updates. By using setState, React can update the component and trigger re-rendering based on the new state value.
+
+6 React fragments are a way to group multiple elements without adding an additional DOM element. They allow you to return multiple adjacent elements in a component's render method without needing to wrap them in a parent container. Fragments help improve code cleanliness and reduce unnecessary DOM elements. They should be used when you need to return multiple elements without a common parent, such as in a map function or conditional rendering.
+
+7 Conditional rendering in React can be handled using various techniques. You can use conditional statements like if or the ternary operator to conditionally render components or elements based on certain conditions. You can also use logical operators like && or || to conditionally render elements. Additionally, you can store the condition in a variable or state and use it to determine what to render.

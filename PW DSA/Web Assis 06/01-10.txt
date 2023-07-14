@@ -1,0 +1,19 @@
+1 A constructor is a special method in a class that is automatically called when an object is created from that class. Its purpose is to initialize the object's properties or perform any other setup tasks required for the object's creation.
+
+2 The this keyword in JavaScript refers to the current execution context or the object on which a method is being invoked. Its purpose is to access or modify the properties and methods within the current scope or object.
+
+3 The call, apply, and bind methods in JavaScript are used to manipulate the execution context of a function. They allow you to explicitly set the value of this within the function. The difference lies in how they pass arguments to the function. call passes arguments individually, apply accepts arguments as an array, and bind creates a new function with a preset context and arguments.
+
+4 Object-Oriented Programming (OOPS) is a programming paradigm that organizes code around objects, which are instances of classes. It focuses on encapsulating data and behavior within objects, promoting modularity, reusability, and maintainability of code.
+
+5 Abstraction is a concept in OOPS that allows you to represent complex systems or ideas by simplifying them into a more manageable and understandable form. It hides unnecessary details and exposes only the essential features and functionalities. The purpose of abstraction is to reduce complexity, increase code readability, and provide a clear interface for interacting with objects.
+
+6 Polymorphism in OOPS refers to the ability of objects to have different forms or behaviors while sharing a common interface. It allows objects of different classes to be treated as instances of a shared parent class or interface, enabling code to be written in a more generic and flexible manner. The purpose of polymorphism is to enhance code reusability and promote code extensibility.
+
+7 Inheritance in OOPS is a mechanism that allows a class to inherit properties and methods from another class, referred to as the parent or base class. It enables code reuse and the creation of a hierarchical relationship between classes. The purpose of inheritance is to promote code reusability, facilitate code organization, and implement the "is-a" relationship between classes.
+
+8 Encapsulation in OOPS is the bundling of data and related behavior within an object. It allows data to be hidden or protected from external access and only accessed or modified through specific methods or interfaces. The purpose of encapsulation is to ensure data integrity, maintain code flexibility, and provide a controlled interface for interacting with objects.
+
+9 In JavaScript, a class is a template or blueprint for creating objects that define their structure and behavior. It is a syntactic sugar over the prototype-based inheritance model. Classes can have properties, methods, and constructors to initialize object instances.
+
+10 The super keyword in JavaScript is used to call and access the parent class's constructor and methods from within a subclass. It allows the subclass to inherit and override the behavior of the parent class while still being able to reference and utilize the parent class's functionalities.
